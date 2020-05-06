@@ -16,9 +16,8 @@ https://www.youtube.com/watch?v=_TjHKWdOF94
 * Professor
 * Aula
 * Livro
-* Nível
 * Filial
-* Prova (não tenho certeza se é entidade)
+* Prova
 
 ## Consultas
 * Consultar dados do aluno;

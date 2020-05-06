@@ -18,11 +18,15 @@ https://www.youtube.com/watch?v=_TjHKWdOF94
 * Livro
 * Nível
 * Filial
+* Prova (não tenho certeza se é entidade)
 
 ## Consultas
 * Consultar dados do aluno;
   * por nível;
   * por aula;
+  * por aula refeita;
+  * por nota;
+  * por status de aprovação;
   * por matrícula.
 * Consultar aulas disponiveis;
   * por data;
@@ -33,10 +37,46 @@ https://www.youtube.com/watch?v=_TjHKWdOF94
   * por filial;
   * por professor;
   * por quantidade de alunos.
-* número de desistências por aula;
-* número de alunos por aula.
+* Número de desistências por aula;
+* Número de alunos por aula;
+* Consulltar provas de unidade;
+  * por data;
+  * por hora;
+  * por nível;
+  * por filial;
+  * por professor;
+  * por aprovados;
+  * por reprovados;
+  * por nota;
+  * por quantidade de alunos.
+* Consultar dados prova final.
+  * por data;
+  * por hora;
+  * por nível;
+  * por filial;
+  * por professor;
+  * por aprovados;
+  * por reprovados;
+  * por nota;
+  * por quantidade de alunos.
 
 ## Operações
+* Cadastro de uma nova aula;
+* Cadastro de prova de unidade;
+* Cadastro de prova final;
+* Alterações dos dads da prova de unidade;
+* Alterações dos dads da prova final;
+* Remarcar prova de unidade;
+* Remarcar prova final;
+* Remover uma aula;
+* Alteração dos dados da aula;
+* Cadastro de um novo aluno;
+* Remover aluno;
+* Alteração dos dados de um aluno;
+* Cadastro de um novo professor;
+* Remover professor;
+* Alteração dos dados de um professor;
+* Desistencia de uma aula agendada
 
 ## Lembretes
 Eu esqueci de colocar sobre a unidade minds no trabalho inicial.

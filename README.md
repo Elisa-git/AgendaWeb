@@ -76,7 +76,10 @@ https://www.youtube.com/watch?v=_TjHKWdOF94
 * Cadastro de um novo professor;
 * Remover professor;
 * Alteração dos dados de um professor;
-* Desistencia de uma aula agendada
+* Desistencia de uma aula agendada.
+
+## A notações atributos
+Criar um uid artificial para aula?
 
 ## Lembretes
 Eu esqueci de colocar sobre a unidade minds no trabalho inicial.

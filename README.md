@@ -80,8 +80,12 @@ https://www.youtube.com/watch?v=_TjHKWdOF94
 ## A notações atributos
 Criar um uid artificial para aula?
 
+---
+
 ## Lembretes
 Eu esqueci de colocar sobre a unidade minds no trabalho inicial.
   * Colocar uma caixinha "Qual sua unidade Mentes?" que ao clicar mostra as filiais;
   * Depois disso que a agenda é disponibilizada;
   * Ou eu só ignoro que há filiais e faço só sobre uma unidade.
+  
+  

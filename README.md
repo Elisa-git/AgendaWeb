@@ -3,8 +3,8 @@
 Crie uma Agenda Web utilizando PHP e MySQL: <br>
 https://www.youtube.com/watch?v=P1mqyAShMfo <br>
 Formulário: <br>
-https://www.youtube.com/watch?v=_TjHKWdOF94
-Gravando dados no banco (esse é quando o site já ta funcionando)
+https://www.youtube.com/watch?v=_TjHKWdOF94 <br>
+Gravando dados no banco (esse é quando o site já ta funcionando) <br>
 https://www.youtube.com/watch?v=yH8R1khGTZs
 
 ## Recursos

@@ -90,4 +90,24 @@ Eu esqueci de colocar sobre a unidade minds no trabalho inicial.
   * Depois disso que a agenda é disponibilizada;
   * Ou eu só ignoro que há filiais e faço só sobre uma unidade.
   
-  
+---
+
+## Códigos
+
+### Cadastro.php
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<metacharset="UTF-8">
+<metaname="viewport"content="width=device-width, initial-scale="1.0">
+<title>Mentes</title>
+</head>
+<body>
+<?php
+    //Conxão com o banco
+    $db = new PDO("mysql:host=localhost;dbname=mentes;charset=utf8","root","");
+ 
+?>
+</body>
+</html>

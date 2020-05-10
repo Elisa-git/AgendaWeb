@@ -94,7 +94,7 @@ Eu esqueci de colocar sobre a unidade minds no trabalho inicial.
 
 ## Códigos
 
-### Cadastro.php
+### Cadastro .php
 
 <!DOCTYPE html>
 <html lang="en">

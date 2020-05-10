@@ -127,3 +127,20 @@ Eu esqueci de colocar sobre a unidade minds no trabalho inicial.
     $conexao=myslqi_connect("localhost", "root", "", "mentes");
 ?>
 
+### Grava
+
+<?php
+    include("conexao.php");
+
+    $recnome=$_GET["fnome"];
+    $recemail=$_GET["femail"];
+    $recmsg=$_GET["fmsg"];
+
+    mysqli_query($conexao, "insert into dados (nome, email, msg) values ("recnome", "recemail", "recmsg")");
+
+    header("location:lista.php");
+?>
+
+### Lista
+
+

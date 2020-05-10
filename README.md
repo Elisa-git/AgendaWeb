@@ -144,4 +144,42 @@ Eu esqueci de colocar sobre a unidade minds no trabalho inicial.
 
 ### Lista
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+    <title>Listagem de dados PHP</title>
+    <link type="text/css" href="css/estilo.css" rel="stylesheet">
+    <link type="text/css" href="front-awesome-4.6.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/jscript" src="script.js"></script>
+
+</head>
+<body>
+    <h1 class="titulo">Listagem de Dados PHP</h1>
+    <table width="100%" border="1" bordercolor="#EEE" cellspacing="0" cellpadding="10">
+        <tr>
+            <td><strong>NOME</strong></td>
+            <td><strong>EMAIL</strong></td>
+            <td><strong>MENSAGEM</strong></td>
+            <td width="10"><strong>ALTERAR</strong></td>
+            <td width="10"><strong>EXCLUIR</strong></td>
+        </tr>
+        <?php
+            include("conecta.php");
+        $seleciona=mysqli_query($conexao, "select * from dados order by id desc");
+            while ($campo=mysqli_fetch_array($seleciona)) {?>
+                <tr>
+                    <td><?$campo["nome"]?></td>
+                    <td><?$campo["email"]?></td>
+                    <td><?$campo["msg"]?></td>
+                    <td align="center"><a href="editar.php?editaid=<?=$campo["id"]?>"><i class="fa fa-edit"></i></a><td>
+                    <td align="center"><a href="#" onClick="verifica(<?$campo["id"]?>)"><i class="fa fa-trash"></i></a><td>
+                </tr>
+        <?php   }?>
+    </table>
+</body>
+
 

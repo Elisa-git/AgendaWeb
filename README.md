@@ -94,24 +94,33 @@ Eu esqueci de colocar sobre a unidade minds no trabalho inicial.
 
 ## Códigos
 
-### Cadastro .php
+### Cadastro
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<metacharset="UTF-8">
-<metaname="viewport"content="width=device-width, initial-scale="1.0">
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, initial-scale="1.0">
 <title>Mentes</title>
 </head>
 <body>
-<?php
-    //Conxão com o banco
-    $db = new PDO("mysql:host=localhost;dbname=mentes;charset=utf8","root","");
+    <?php
+        //Conxão com o banco
+        $db = new PDO("mysql:host=localhost;dbname=mentes;charset=utf8","root","");
  
-?>
+    ?>
 </body>
-</html>
+<body>
 
+    <h1 class="titulo">Formulário de cadastro - PHP</h1>
+    <form method="get" action="grava.php" class="formulario">
+        <input type="text" name="fnome" placeholder="NOME" required class="input"><br>
+        <input type="email" name="femail" placeholder="EMAIL" required class="input"><br>
+        <textarea name="fmsg" rows="5" cols="48" required class="input" placeholder="MENSAGEM"></textarea><br>
+        <input type="submit" value="GRAVAR" class="botform"><br>
+
+</body>        
+</html>
 ### Conexão
 
 <?php

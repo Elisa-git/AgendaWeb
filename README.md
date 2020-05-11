@@ -2,6 +2,7 @@
 ## Links
 Crie uma Agenda Web utilizando PHP e MySQL: <br>
 https://www.youtube.com/watch?v=P1mqyAShMfo <br>
+* Segunda opção: https://social.msdn.microsoft.com/Forums/pt-BR/5212f140-f795-4f33-b4e5-b974f0690de6/como-criar-agenda-usando-php-e-mysql?forum=webgeralpt <br>
 Formulário: <br>
 https://www.youtube.com/watch?v=_TjHKWdOF94 <br>
 Gravando dados no banco (esse é quando o site já ta funcionando) <br>

@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=yH8R1khGTZs
 ## Recursos
 * Formulario (html);
 * Banco de dados (php e mysql);
-* Quando passa o mouse em cima uma janela aparece (java escript).
+* Quando passa o mouse em cima uma janela aparece e respostas da página como "senha incorreta" (java escript).
 
 ## Banco de dados
 ## Entidades
